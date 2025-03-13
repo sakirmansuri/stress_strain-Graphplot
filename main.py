@@ -41,7 +41,7 @@ def plot_stress_strain(d, L, P_values, l_values):
     st.pyplot(fig)
 
 # Streamlit UI
-st.title("Stress-Strain Curve Generator")
+st.title("Stress-Strain Curve Generator By Sakir")
 st.sidebar.header("Input Parameters")
 
 d = st.sidebar.number_input("Enter the diameter (mm):", min_value=1.0, value=10.0, step=0.1)
